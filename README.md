@@ -8,8 +8,6 @@ Originally developed for CSE 13S at UC Santa Cruz.
 
 ## rotate.h — Circular Bit Rotations
 
-**Source:** [darrelllong/rotLR](https://github.com/darrelllong/rotLR)
-
 Provides inline functions for circular (barrel) left and right rotation of
 8-, 16-, 32-, and 64-bit unsigned integers.  Written as `static inline`
 functions rather than macros to avoid compatibility and type-safety issues.
@@ -42,8 +40,6 @@ uint32_t z = rotL_32(x, 8);   // 0x34567812
 ---
 
 ## set.h — Fixed-Size Sets
-
-**Source:** [darrelllong/set](https://github.com/darrelllong/set)
 
 A simple, efficient implementation of fixed-size sets backed by a single
 `uint64_t` machine word.  Each bit position represents a set element (0–63).
@@ -94,8 +90,6 @@ set consonants = differenceSet(letters, vowels);
 ---
 
 ## endian.h — Endianness Detection and Byte Swapping
-
-**Source:** [darrelllong/endian](https://github.com/darrelllong/endian)
 
 Detects the byte order of the host machine and provides branch-free byte-swap
 functions for 16-, 32-, and 64-bit integers.  A good compiler will optimize
